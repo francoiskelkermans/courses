@@ -38,12 +38,12 @@ header p {
   opacity: 0.7;
 }
 
-nav {
+aside {
   width: 30%;
   float: left;
 }
 
-nav ol {
+aside ol {
   margin-top: 0;
 }
 

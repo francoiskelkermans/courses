@@ -11,8 +11,9 @@
   les navigateurs -->
   <link rel="stylesheet" href="normalize.css" />
 
-  <!-- lien vers notre feuille de styles -->
+  <!--lien vers notre feuille de styles -->
   <link rel="stylesheet" href="style.css" />
+
 </head>
 <body>
   <header>
@@ -21,17 +22,24 @@
   </header>
 
   <div class="wrapper">
-    <nav>
-      <ol class="toc">
-          <li><a href="#foreword">Introduction</a></li>
-          <li><a href="#ingredients">Ingredients</a></li>
-          <li><a href="#step-1">Step 1: 7x Formula</a></li>
-          <li><a href="#step-2">Step 2: Concentrate</a></li>
-          <li><a href="#step-3">Step 3: The Cola Syrup</a></li>
-          <li><a href="#step-4">Step 4: The Cola</a></li>
-      </ol>
-    </nav>
-    <main class="col">
+    <aside>
+      <nav>
+        <ol class="toc">
+            <li><a href="#foreword">Introduction</a></li>
+            <li><a href="#ingredients">Ingredients</a></li>
+            <li><a href="#step-1">Step 1: 7x Formula</a></li>
+            <li><a href="#step-2">Step 2: Concentrate</a></li>
+            <li><a href="#step-3">Step 3: The Cola Syrup</a></li>
+            <li><a href="#step-4">Step 4: The Cola</a></li>
+        </ol>
+      </nav>
+    </aside>
+    <!--
+      The <main> element is widely supported (except for Internet Explorer).
+      It is suggested that until <main> element is supported
+      in Internet Explorer, the "main" ARIA role be added to the <main> element
+    -->
+    <main class="col" role="main">
       <div class="box">
         <h2 id="foreword">Introduction</h2>
 
